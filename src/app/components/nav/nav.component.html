@@ -1,0 +1,31 @@
+<mat-drawer-container class="container" autosize>
+  <mat-drawer #drawer class="sidenav" mode="side" [opened]="true">
+    <mat-nav-list>
+      <a mat-list-item routerLink="/clientes" class="sidenav-lista-item">
+        <mat-icon class="sidenav-icones">group</mat-icon>
+        Clientes
+      </a>
+      <a mat-list-item routerLink="/especialistas" class="sidenav-lista-item">
+        <mat-icon class="sidenav-icones">contacts</mat-icon>
+        Especialistas
+      </a>
+      <a mat-list-item routerLink="/consultas" class="sidenav-lista-item">
+        <mat-icon class="sidenav-icones">date_range</mat-icon>
+        Consultas
+      </a>
+      <a mat-list-item routerLink="/procedimentos" class="sidenav-lista-item">
+        <mat-icon class="sidenav-icones">face</mat-icon>
+        Procedimentos
+      </a>
+    </mat-nav-list>
+  </mat-drawer>
+  <div class="sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      <mat-icon class="sidenav-icones">menu</mat-icon>
+    </button>
+    <router-outlet></router-outlet>
+    <footer>
+      <app-footer></app-footer>
+    </footer>
+  </div>
+</mat-drawer-container>

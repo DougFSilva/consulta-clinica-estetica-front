@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+}
+
+h1{
+  color: var(--cor-prim);
+  text-align: center;
+  font-weight: 500;
+}
+
+.formulario {
+  background-color: white;
+  width: 40rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: .5rem;
+}
+
+.formulario div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#input-nome {
+  width: 65%;
+}
+
+#input-cpf {
+  width: 33%;
+}
+
+#input-telefone {
+  width: 33%;
+}
+
+#input-email {
+  width: 50%;
+}
+
+#input-estado {
+  width: 15%;
+}
+
+#input-cidade {
+  width: 65%;
+}
+
+#input-bairro {
+  width: 33%;
+}
+
+#input-rua {
+  width: 75%;
+}
+
+#input-numero {
+  width: 23%;
+}
+
+.formulario button {
+  width: 48%;
+}
+
+#botao-salvar {
+  background-color: var(--cor-prim);
+  color: white;
+}

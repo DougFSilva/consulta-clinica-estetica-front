@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: var(--cor-sec);
+  text-align: center;
+}
+
+.titulo {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  margin: 1rem;
+}
+
+

@@ -1,0 +1,74 @@
+<div class="container">
+  <section class="formulario mat-elevation-z4">
+    <h1>Cadastrar novo cliente</h1>
+    <div>
+      <mat-form-field appearance="fill" id="input-nome">
+        <mat-label>Nome</mat-label>
+        <input matInput placeholder="Placeholder"
+        [(ngModel)]="dadosCriarCliente.nome">
+        <mat-icon matSuffix>person</mat-icon>
+
+      </mat-form-field>
+      <mat-form-field appearance="fill" id="input-cpf">
+        <mat-label>CPF</mat-label>
+        <input matInput placeholder="Placeholder"
+        [(ngModel)]="dadosCriarCliente.cpf">
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field appearance="fill" id="input-telefone">
+        <mat-label>Telefone</mat-label>
+        <input matInput placeholder="Placeholder"
+        [(ngModel)]="dadosCriarCliente.telefone">
+        <mat-icon matSuffix>phone</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" id="input-email">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Placeholder"
+        [(ngModel)]="dadosCriarCliente.email">
+        <mat-icon matSuffix>mail</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" id="input-estado">
+        <mat-label>Estado</mat-label>
+        <input matInput placeholder="Placeholder"
+        [(ngModel)]="dadosCriarCliente.estado">
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field appearance="fill" id="input-cidade">
+        <mat-label>Cidade</mat-label>
+        <input matInput placeholder="Placeholder"
+        [(ngModel)]="dadosCriarCliente.cidade">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" id="input-bairro">
+        <mat-label>Bairro</mat-label>
+        <input matInput placeholder="Placeholder"
+        [(ngModel)]="dadosCriarCliente.bairro">
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field appearance="fill" id="input-rua">
+        <mat-label>Rua</mat-label>
+        <input matInput placeholder="Placeholder"
+        [(ngModel)]="dadosCriarCliente.rua">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" id="input-numero">
+        <mat-label>Numero</mat-label>
+        <input matInput placeholder="Placeholder"
+        [(ngModel)]="dadosCriarCliente.numero">
+      </mat-form-field>
+    </div>
+
+    <div>
+      <button mat-raised-button id="botao-cadastrar" (click)="cadastrar()">Cadastrar</button>
+      <button mat-raised-button color="warn" routerLink="/clientes">Cancelar</button>
+    </div>
+  </section>
+
+</div>

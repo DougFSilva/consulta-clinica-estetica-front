@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.sidenav {
+  background-color: var(--cor-prim);
+  width: 12rem;
+}
+
+.sidenav-lista-item{
+  color: white;
+}
+
+.sidenav-icones{
+  margin-right: .5rem;
+  color: white;
+}
+
+.sidenav-content {
+  background-color: var(--cor-ter) ;
+}
+
+footer {
+  width: 100%;
+}
